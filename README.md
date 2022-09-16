@@ -3,16 +3,16 @@ Ping program written in Go with the option of flooding a host with pings (purely
 
 ## Ping a host
 ```console
-john@john-MBP goping % sudo ./goping -d golang.com   
+john@john-MBP goping % sudo ./goping -d example.com   
 ```
 
 ## Ping a host n times
 ```console
-john@john-MBP goping % sudo ./goping -d golang.com -c 4
+john@john-MBP goping % sudo ./goping -d example.com -c 4
 ```
 
 ## Flood a host 
 Do not use this outside of a test environment or without permission of the target
 ```console
-john@john-MBP goping % sudo ./goping -d golang.com -f 
+john@john-MBP goping % sudo ./goping -d example.com -f 
 ```
