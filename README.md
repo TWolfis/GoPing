@@ -11,7 +11,8 @@ john@john-MBP goping % sudo ./goping -d golang.com
 john@john-MBP goping % sudo ./goping -d golang.com -c 4
 ```
 
-## Flood a host (do not use this outside of a test environment or without permission of the target) 
+## Flood a host 
+Do not use this outside of a test environment or without permission of the target
 ```console
 john@john-MBP goping % sudo ./goping -d golang.com -f 
 ```
